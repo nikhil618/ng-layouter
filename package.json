@@ -4,9 +4,9 @@
   "license": "MIT",
   "scripts": {
     "start": "nx run ng-layouter:serve",
-    "build": "nx run ng-layouter:build:production --baseHref=http://nikhil618.github.io/ng-layouter",
+    "build": "nx run ng-layouter:build:production --baseHref=https://nikhil618.github.io/ng-layouter",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist/apps/ng-layouter"
+    "deploy": "gh-pages -d dist/apps/ng-layouter/browser"
   },
   "private": true,
   "dependencies": {
