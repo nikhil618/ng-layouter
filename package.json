@@ -6,8 +6,7 @@
   "scripts": {
     "start": "nx run ng-layouter:serve",
     "build": "nx run ng-layouter:build:production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist/apps/ng-layouter/browser"
+    "postbuild": "gh-pages -d dist/apps/ng-layouter/browser"
   },
   "private": true,
   "dependencies": {
