@@ -32,6 +32,7 @@
       },
       "configurations": {
         "production": {
+          "baseHref": "/ng-layouter/",
           "budgets": [
             {
               "type": "initial",

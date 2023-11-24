@@ -2,9 +2,10 @@
   "name": "@ng-layouter/source",
   "version": "0.0.0",
   "license": "MIT",
+  "homepage": "https://nikhil618.github.io/ng-layouter/",
   "scripts": {
     "start": "nx run ng-layouter:serve",
-    "build": "nx run ng-layouter:build:production --baseHref=https://nikhil618.github.io/ng-layouter",
+    "build": "nx run ng-layouter:build:production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist/apps/ng-layouter/browser"
   },
