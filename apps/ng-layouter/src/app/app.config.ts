@@ -4,6 +4,9 @@ import { appRoutes } from './app.routes';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideStore } from '@ngrx/store';
 import { provideEffects } from '@ngrx/effects';
+import LogRocket from 'logrocket';
+LogRocket.init('c6f5iv/ng-layouter');
+
 
 export const appConfig: ApplicationConfig = {
   providers: [
